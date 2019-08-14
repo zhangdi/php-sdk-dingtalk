@@ -1,24 +1,24 @@
-# template-sdk
+# 钉钉 SDK PHP版
 
-我的开发SDK的模板
+钉钉服务端API的PHP实现
 
-## Installation
+- [x] 群机器人
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+## 安装
 
-Either run
+推荐使用 [composer](http://getcomposer.org/download/).
+
+或者运行下面的命令
 
 ```
 php composer.phar require --prefer-dist zhangdi/tempate-sdk
 ```
 
-or add
+或者添加下面的代码到 composer.json 文件
 
 ```json
 "zhangdi/tempate-sdk": "*"
 ```
 
-to the require section of your composer.json.
-
-## Usage
+## 用法
 

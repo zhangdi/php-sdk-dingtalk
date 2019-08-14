@@ -1,7 +1,7 @@
 {
-    "name": "zhangdi/template-sdk",
+    "name": "zhangdi/dingtalk",
     "type": "library",
-    "description": "Kernel for develop sdk",
+    "description": "钉钉 SDK PHP版",
     "keywords": [],
     "license": "MIT",
     "authors": [
@@ -12,11 +12,11 @@
     ],
     "require": {
         "php": "^7.1.0",
-        "zhangdi/sdk-kernel": "^1.0"
+        "zhangdi/sdk-kernel": "*"
     },
     "autoload": {
         "psr-4": {
-            "ZhangDi\\Sdk\\": "src"
+            "ZhangDi\\Sdk\\DingTalk\\": "src"
         }
     }
 }
