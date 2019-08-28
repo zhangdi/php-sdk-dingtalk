@@ -6,6 +6,12 @@ namespace ZhangDi\Sdk\DingTalk\Internal;
 use ZhangDi\Sdk\DingTalk\Robot\RobotServiceProvider;
 use ZhangDi\SdkKernel\Application as BaseApplication;
 
+/**
+ * Class Application
+ * @package ZhangDi\Sdk\DingTalk\Internal
+ *
+ * @property User\Client $user
+ */
 class Application extends BaseApplication
 {
     public $id = 'dingtalk-internal';
@@ -22,6 +28,6 @@ class Application extends BaseApplication
     ];
 
     public $providers = [
-        RobotServiceProvider::class,
+        User\ServiceProvider::class,
     ];
 }
